@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "offers-bot"
+version = "0.1.0"
+description = "simple tg bot for offers"
+authors = ["Danil <70486678+asaWasa@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.4.1"
+python-dotenv = "^1.0.1"
+aioredis = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
